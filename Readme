@@ -1,4 +1,6 @@
-This code is for TGRS paper "GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification."
+This code is for the paper "GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification."
+This paper has been published in IEEE Transactions on Geoscience and Remote Sensing.
+
 
 python main.py --dataset Indian --epoches 400 --batch_size 64 --dropout 0.2
 --nlayers 9 --window_a 5 --window_b 11 --r_positive 0.1 --lambdas 5
